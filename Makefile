@@ -15,7 +15,7 @@ export RW
 endif
 
 ifneq ($(MOD),)
-  SUBDIRS = b_whirl b_synth
+  SUBDIRS = b_whirl b_synth b_overdrive b_reverb
 else
   SUBDIRS = b_overdrive b_whirl b_reverb b_conv b_chorato src b_synth ui
 endif
