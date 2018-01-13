@@ -20,7 +20,7 @@ LV2VERSION=$(VERSION)
 
 bindir = $(PREFIX)/bin
 sharedir = $(PREFIX)/share/setBfree
-lv2dir = $(PREFIX)/lib/lv2
+lv2dir ?= $(PREFIX)/lib/lv2
 
 CFLAGS ?= $(OPTIMIZATIONS) -Wall
 ifeq ($(XWIN),)
