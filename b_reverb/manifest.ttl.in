@@ -4,4 +4,4 @@
 <http://gareus.org/oss/lv2/b_reverb>
 	a lv2:Plugin ;
 	lv2:binary <b_reverb@LIB_EXT@>  ;
-	rdfs:seeAlso <b_reverb.ttl> .
+	rdfs:seeAlso <b_reverb.ttl> @MODGUITTL@ .
